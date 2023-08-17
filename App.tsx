@@ -12,7 +12,7 @@ export default function App() {
         {id: 3, title: 'third task', isDone: true},
         {id: 4, title: 'fourth task', isDone: false},
     ])
-    //console.log(tasks) from notebook
+    //console.log(tasks) from notebook from PC
 
     const changeTaskStatus = (taskId: number, checked: boolean) => {
         setTasks(
